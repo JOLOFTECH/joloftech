@@ -11,7 +11,7 @@ export const Contact = () => {
           <Headphones className="w-16 h-16 mx-auto mb-6 text-jolof-light" />
           <div className="space-y-4">
             <p className="text-xl">NORD FOIRE FACE YUM YUM</p>
-            <p className="text-xl">M.KEITA1601@GMAIL.COM</p>
+            <p className="text-xl">JOLOOFTECH@GMAIL.COM</p>
             <p className="text-2xl font-bold">77 143 78 79</p>
             <p className="text-xl text-jolof-light">100% FLEXIBLE</p>
           </div>
