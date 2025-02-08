@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 
 export const Hero = () => {
@@ -10,9 +11,12 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            JOLOFTECH
-          </h1>
+          {/* On utilise le logo blanc puisque le fond est sombre */}
+          <img 
+            src="/white-logo.png" 
+            alt="JoloofTech Logo" 
+            className="h-24 mx-auto mb-8"
+          />
           <p className="text-xl md:text-2xl mb-8 text-jolof-light">
             SERVICES INFORMATIQUE
           </p>
