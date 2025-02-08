@@ -11,11 +11,10 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
           className="text-center"
         >
-          {/* On utilise le logo blanc puisque le fond est sombre */}
           <img 
-            src="/white-logo.png" 
+            src="/lovable-uploads/2b1a1d7b-e03f-42e6-9e92-9d1a2dc1023c.png"
             alt="JoloofTech Logo" 
-            className="h-24 mx-auto mb-8"
+            className="h-32 mx-auto mb-8"
           />
           <p className="text-xl md:text-2xl mb-8 text-jolof-light">
             SERVICES INFORMATIQUE
