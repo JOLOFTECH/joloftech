@@ -1,3 +1,4 @@
+
 import { Headphones, Mail, MapPin, Phone, Clock, Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
 export const Contact = () => {
@@ -52,13 +53,13 @@ export const Contact = () => {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold text-jolof-light">Newsletter</h3>
             <p className="text-gray-300">Restez informé de nos dernières actualités</p>
-            <div className="flex gap-2">
+            <div className="flex flex-col sm:flex-row gap-2">
               <input 
                 type="email" 
                 placeholder="Votre email" 
-                className="px-4 py-2 rounded-lg bg-white/10 border border-white/20 focus:outline-none focus:border-jolof-light"
+                className="w-full px-4 py-2 rounded-lg bg-white/10 border border-white/20 focus:outline-none focus:border-jolof-light"
               />
-              <button className="px-4 py-2 bg-jolof-light rounded-lg hover:bg-opacity-90 transition-all">
+              <button className="whitespace-nowrap px-6 py-2 bg-jolof-light rounded-lg hover:bg-opacity-90 transition-all">
                 OK
               </button>
             </div>
