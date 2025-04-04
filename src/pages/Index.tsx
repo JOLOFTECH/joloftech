@@ -2,6 +2,7 @@
 import { Hero } from "@/components/Hero";
 import { Services } from "@/components/Services";
 import { EcommerceAdvert } from "@/components/EcommerceAdvert";
+import { AppointmentAdvert } from "@/components/AppointmentAdvert";
 import { Contact } from "@/components/Contact";
 
 const Index = () => {
@@ -10,6 +11,7 @@ const Index = () => {
       <Hero />
       <Services />
       <EcommerceAdvert />
+      <AppointmentAdvert />
       <Contact />
     </main>
   );
