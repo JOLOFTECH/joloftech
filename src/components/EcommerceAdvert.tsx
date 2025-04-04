@@ -1,5 +1,5 @@
 
-import { Package, Tag, TrendingUp, CreditCard, Truck } from "lucide-react";
+import { ShoppingCart, Package, Tag, TrendingUp, CreditCard, Truck } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
@@ -10,18 +10,20 @@ export const EcommerceAdvert = () => {
         <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2">
             {/* Image/Visual Side */}
-            <div className="bg-gradient-to-br from-[#8B5CF6] to-[#D946EF] p-8 flex items-center justify-center">
+            <div className="bg-gradient-to-br from-[#8B5CF6] to-[#D946EF] p-8 flex items-center justify-center relative">
+              {/* Logo in top-left corner */}
+              <img 
+                src="/lovable-uploads/2b1a1d7b-e03f-42e6-9e92-9d1a2dc1023c.png"
+                alt="JoloofTech Logo" 
+                className="h-16 w-auto absolute top-4 left-4"
+              />
               <motion.div 
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
                 transition={{ duration: 0.5 }}
                 className="text-center"
               >
-                <img 
-                  src="/lovable-uploads/2b1a1d7b-e03f-42e6-9e92-9d1a2dc1023c.png"
-                  alt="JoloofTech Logo" 
-                  className="h-32 mx-auto mb-6"
-                />
+                <ShoppingCart className="w-24 h-24 text-white mx-auto mb-6" />
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                   E-COMMERCE MULTI-SECTORIEL
                 </h2>
