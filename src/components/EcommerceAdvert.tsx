@@ -1,5 +1,5 @@
 
-import { ShoppingCart, Package, Tag, TrendingUp, CreditCard, Truck } from "lucide-react";
+import { Package, Tag, TrendingUp, CreditCard, Truck } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 
@@ -17,7 +17,11 @@ export const EcommerceAdvert = () => {
                 transition={{ duration: 0.5 }}
                 className="text-center"
               >
-                <ShoppingCart className="w-24 h-24 text-white mx-auto mb-6" />
+                <img 
+                  src="/lovable-uploads/2b1a1d7b-e03f-42e6-9e92-9d1a2dc1023c.png"
+                  alt="JoloofTech Logo" 
+                  className="h-32 mx-auto mb-6"
+                />
                 <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
                   E-COMMERCE MULTI-SECTORIEL
                 </h2>
