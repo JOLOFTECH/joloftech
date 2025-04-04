@@ -17,6 +17,13 @@ export const EcommerceAdvert = () => {
                 alt="JoloofTech Logo" 
                 className="h-16 w-auto absolute top-4 left-4"
               />
+              
+              {/* Contact information added */}
+              <div className="absolute bottom-4 left-4 text-white text-left">
+                <div className="font-semibold mb-1">JOLOOFTECH@GMAIL.COM</div>
+                <div className="font-semibold">+221 77 143 78 79</div>
+              </div>
+              
               <motion.div 
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
