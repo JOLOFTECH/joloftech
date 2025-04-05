@@ -7,12 +7,12 @@ export const MicrosoftProducts = () => {
   return (
     <section className="py-16 bg-white relative">
       <div className="container mx-auto px-4">
-        {/* Add logo in top-right corner */}
-        <div className="absolute top-4 right-4">
+        {/* Add logo at the top */}
+        <div className="flex justify-center mb-8">
           <img 
             src="/lovable-uploads/2b1a1d7b-e03f-42e6-9e92-9d1a2dc1023c.png"
             alt="JoloofTech Logo" 
-            className="h-16 w-auto"
+            className="h-20 w-auto"
           />
         </div>
         
