@@ -6,6 +6,15 @@ export const ErpAdvert = () => {
   return (
     <section className="py-20 bg-gradient-to-br from-jolof-accent to-jolof-purple text-white relative">
       <div className="container mx-auto px-4">
+        {/* Add logo in top-left corner */}
+        <div className="absolute top-4 left-4">
+          <img 
+            src="/lovable-uploads/2b1a1d7b-e03f-42e6-9e92-9d1a2dc1023c.png"
+            alt="JoloofTech Logo" 
+            className="h-16 w-auto"
+          />
+        </div>
+        
         <div className="flex flex-col md:flex-row items-center gap-8">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
