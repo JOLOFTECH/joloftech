@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const Hero = () => {
   return (
-    <section className="min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-jolof-purple to-jolof-accent text-white py-20">
+    <section className="min-h-[70vh] flex items-center justify-center bg-gradient-to-br from-jolof-purple to-jolof-accent text-white py-20 relative">
       <div className="container mx-auto px-4">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
@@ -23,6 +23,12 @@ export const Hero = () => {
             N'hésitez pas à nous contacter pour obtenir un devis gratuit ou pour discuter de vos besoins informatiques.
           </p>
         </motion.div>
+      </div>
+      
+      {/* Contact information added */}
+      <div className="absolute bottom-4 left-4 text-white text-left">
+        <div className="font-semibold mb-1">JOLOOFTECH@GMAIL.COM</div>
+        <div className="font-semibold">+221 77 143 78 79</div>
       </div>
     </section>
   );
