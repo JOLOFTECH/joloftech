@@ -5,8 +5,17 @@ import { Download } from "lucide-react";
 
 export const MicrosoftProducts = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-16 bg-white relative">
       <div className="container mx-auto px-4">
+        {/* Add logo at the top */}
+        <div className="flex justify-center mb-8">
+          <img 
+            src="/lovable-uploads/2b1a1d7b-e03f-42e6-9e92-9d1a2dc1023c.png"
+            alt="JoloofTech Logo" 
+            className="h-20 w-auto"
+          />
+        </div>
+        
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-jolof-purple mb-4">
             LICENCES MICROSOFT OFFICIELLES
